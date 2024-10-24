@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Virat Kohli",
+        "image_url": "https://i.ibb.co.com/yhvmsYj/1690383625521-17kohli1-Ej8-N8-H.jpg",
+        "country": "India",
+        "rating": 95,
+        "speciality": "Batsman",
+        "price": 2000000,
+        "batting_hand": "Right-hand"
+    },
+    {
+        "name": "Steve Smith",
+        "image_url": "https://i.ibb.co.com/jbp4bLM/4308.jpg",
+        "country": "Australia",
+        "rating": 92,
+        "speciality": "Batsman",
+        "price": 1800000,
+        "batting_hand": "Right-hand"
+    },
+    {
+        "name": "Kane Williamson",
+        "image_url": "https://i.ibb.co.com/ryLC36x/kane-williamson-2.jpg",
+        "country": "New Zealand",
+        "rating": 91,
+        "speciality": "Batsman",
+        "price": 1700000,
+        "batting_hand": "Right-hand"
+    },
+    {
+        "name": "Jasprit Bumrah",
+        "image_url": "https://i.ibb.co.com/h7qB3yC/images-1.jpg",
+        "country": "India",
+        "rating": 94,
+        "speciality": "Bowler",
+        "price": 1900000,
+        "bowling_hand": "Right-hand"
+    },
+    {
+        "name": "Pat Cummins",
+        "image_url": "https://i.ibb.co.com/jDrfN2d/pat-cummins-afp-2.jpg",
+        "country": "Australia",
+        "rating": 93,
+        "speciality": "Bowler",
+        "price": 1850000,
+        "bowling_hand": "Right-hand"
+    },
+    {
+        "name": "Ben Stokes",
+        "image_url": "https://i.ibb.co.com/jwcp8Tv/Ben-Stokes.jpg",
+        "country": "England",
+        "rating": 90,
+        "speciality": "All-rounder",
+        "price": 1750000,
+        "batting_hand": "Left-hand",
+        "bowling_hand": "Right-hand"
+    },
+    {
+        "name": "Babar Azam",
+        "image_url": "https://i.ibb.co.com/njZWXtn/Untitled-design.jpg",
+        "country": "Pakistan",
+        "rating": 96,
+        "speciality": "Batsman",
+        "price": 2100000,
+        "batting_hand": "Right-hand"
+    },
+    {
+        "name": "Rashid Khan",
+        "image_url": "https://i.ibb.co.com/MBXKFgv/2022-12-rashid-khan-appointed-afghanistan-t20i-captain-5199-kczwqs.jpg",
+        "country": "Afghanistan",
+        "rating": 92,
+        "speciality": "Bowler",
+        "price": 1800000,
+        "bowling_hand": "Right-hand"
+    },
+    {
+        "name": "Trent Boult",
+        "image_url": "https://i.ibb.co.com/SJFbt05/Trent-Boult-of-New-Zealand-celebrates.jpg",
+        "country": "New Zealand",
+        "rating": 89,
+        "speciality": "Bowler",
+        "price": 1600000,
+        "bowling_hand": "Left-hand"
+    }
+]
