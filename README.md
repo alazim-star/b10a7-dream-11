@@ -1,8 +1,19 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BPL-DREAM 11
 
-Currently, two official plugins are available:
+A brief description.
+Technologies used.
+3 key features of your project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+In this project, building a Player Selection App for a sports team. The app includes a few main features:
+
+Available Players List: Displays a list of all available players. Users can add players to their selection from here, with a limit of up to 6 players.
+
+Selected Players: Shows the players the user has selected, displaying basic information like name, batting hand, and bowling hand, along with the option to remove players.
+
+Credit Management: Users can add credits and are alerted when there is insufficient credit to select a player.
+
+Notifications: Uses react-toastify to show notifications, informing users when a player is added, if they've reached the selection limit, or if a player is already selected.
+
+Navigation: Includes a toggle between the "Available" and "Selected" player views, with active states styled accordingly.
