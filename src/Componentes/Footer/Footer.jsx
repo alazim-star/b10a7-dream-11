@@ -27,7 +27,7 @@ const Footer = () => {
                     <h3>Subscribe</h3>
                     <p className="text-gray-600">Subscribe to our newsletter for the latest updates.</p>
                     <div className="flex">
-                    <input type="text"placeholder="Enter your email"className="input input-bordered input-error w-full max-w-xs"  />
+                    <input type="text"placeholder="Enter your email"className="input input-bordered input-error w-full "  />
                         <button className="text-black font-bold p-2 bg-gradient-to-r from-[#f9d38f] to-[#e1788b] rounded-xl">Subscribe</button>
                     </div>
               

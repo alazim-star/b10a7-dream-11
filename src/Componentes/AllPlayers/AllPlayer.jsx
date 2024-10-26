@@ -7,7 +7,7 @@ const AllPlayers = ({ selectPlayer, handleRemoveCredit}) => {
     const [showSelected, setShowSelected] = useState(false);
 
     useEffect(() => {
-        fetch('./public/Player.json')
+        fetch('/Player.json')
             .then(res => res.json())
             .then(data => setPlayers(data));
     }, []);

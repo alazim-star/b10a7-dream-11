@@ -7,7 +7,7 @@ import Newsletter from './Componentes/Newsletter/Newsletter';
 import { useState } from 'react';
 import CardContainer from './Componentes/CardContainer/CardContainer';
 import React from 'react';
-import { RiDeleteBin6Line } from 'react-icons/ri'; // Import the delete icon
+import { RiDeleteBin6Line } from 'react-icons/ri'; 
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -15,12 +15,12 @@ import Selected from './Componentes/selected/Selected';
 
 
 function App() {
-  const [selectedPlayers, setSelectedPlayers] = useState([]);
+  const [selectedPlayers, setSelectedPlayers] = useState([])
   const [isActive, setIsActive] = useState({
     cart: true,
     status: "cart"
   });
-  const [addCredit, setAddCredit] = useState(0);
+  const [addCredit, setAddCredit] = useState(0)
 
   const handleIsActiveState = (status) => {
     setIsActive({
@@ -30,49 +30,49 @@ function App() {
   };
 
   const handleAddCredit = () => {
-    setAddCredit(prevCredit => prevCredit + 10000000);
+    setAddCredit(prevCredit => prevCredit + 10000000)
   };
 
   // Insufficient balance alert 
   const handleRemoveCredit = (price) => {
     if (addCredit >= price) {
-      setAddCredit(prevCredit => prevCredit - price);
+      setAddCredit(prevCredit => prevCredit - price)
       return true;
     } else {
       if (!toast.isActive("creditToast")) {
-        toast.error("Insufficient credit to choose this player.", { toastId: "creditToast" });
+        toast.error("Insufficient credit to choose this player.", { toastId: "creditToast" })
       }
       return false;
     }
   };
 
-  // Player already selected check
+  // Player already selected 
   const selectPlayer = (player) => {
     if (selectedPlayers.length >= 6) {
-      toast.error('You can only select up to 6 players.');
+      toast.error('You can only select up to 6 players.')
       return;
     }
 
     const isExist = selectedPlayers.some((prevSelectedPlayer) => prevSelectedPlayer.id === player.id);
     if (isExist) {
-      toast.error('Player already selected');
+      toast.error('Player already selected')
       return;
     }
 
     if (handleRemoveCredit(player.price)) {
-      setSelectedPlayers((prevSelectedPlayers) => [...prevSelectedPlayers, player]);
-      toast.success(`Congrats!! ${player.name} is now in your squad`);
+      setSelectedPlayers((prevSelectedPlayers) => [...prevSelectedPlayers, player])
+      toast.success(`Congrats!! ${player.name} is now in your squad`)
     }
   };
 
   // Handle player removal
   const handleRemove = (id) => {
-    const updatedPlayers = selectedPlayers.filter((player) => player.id !== id);
+    const updatedPlayers = selectedPlayers.filter((player) => player.id !== id)
     setSelectedPlayers(updatedPlayers);
   };
 
   // Variable to display selected players count
-  const selectedCountDisplay = selectedPlayers.length;
+  const selectedCountDisplay = selectedPlayers.length
 
   return (
     <div className='container mx-auto px-4'>
@@ -126,7 +126,7 @@ function App() {
       <Footer />
       <ToastContainer position="top-center" autoClose={2000} hideProgressBar={false} />
     </div>
-  );
+  )
 }
 
 export default App;

@@ -1,3 +1,5 @@
+
+import bg-shwado from "../../assets/logo.png";
 const Newsletter = () => {
   return (
     <div className="container mx-auto">
