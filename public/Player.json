@@ -54,32 +54,35 @@
         "price": 1750000,
         "batting_hand": "Left-hand",
         "bowling_hand": "Right-hand"
-    },
-    {    "id":7,
-        "name": "Babar Azam",
-        "image_url": "https://i.ibb.co.com/njZWXtn/Untitled-design.jpg",
-        "country": "Pakistan",
-        "rating": 96,
-        "speciality": "Batsman",
-        "price": 2100000,
-        "batting_hand": "Right-hand"
-    },
-    {    "id":8,
-        "name": "Rashid Khan",
-        "image_url": "https://i.ibb.co.com/MBXKFgv/2022-12-rashid-khan-appointed-afghanistan-t20i-captain-5199-kczwqs.jpg",
-        "country": "Afghanistan",
-        "rating": 92,
-        "speciality": "Bowler",
-        "price": 1800000,
-        "bowling_hand": "Right-hand"
-    },
-    {    "id":9,
-        "name": "Trent Boult",
-        "image_url": "https://i.ibb.co.com/SJFbt05/Trent-Boult-of-New-Zealand-celebrates.jpg",
-        "country": "New Zealand",
-        "rating": 89,
-        "speciality": "Bowler",
-        "price": 1600000,
-        "bowling_hand": "Left-hand"
     }
+     ,
+    {   "id": 7,
+    "name": "Ravindra Jadeja",
+    "image_url": "https://i.ibb.co.com/PrR9FyF/F42-Q4-Bw-XIAAGNYk.jpg",
+    "country": "India",
+    "rating": 88,
+    "speciality": "All-rounder",
+    "price": 1950000,
+    "bowling_hand": "Left-hand"
+},
+{   "id": 8,
+    "name": "AB de Villiers",
+    "image_url": "https://i.ibb.co.com/fDgm3dg/ab-de-villiers-1200.jpg",
+    "country": "South Africa",
+    "rating": 94,
+    "speciality": "All-rounder",
+    "price": 2200000,
+    "bowling_hand": "Right-hand"
+},
+{   
+    "id": 9,
+    "name": "Shane Warne",
+    "image_url": "https://i.ibb.co.com/TgM9BsS/1687943777859.jpg",
+    "country": "Australia",
+    "rating": 92,
+    "speciality": "Bowler",
+    "price": 1950000,
+    "bowling_hand": "Right-hand"
+  }
+
 ]

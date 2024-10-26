@@ -1,14 +1,12 @@
-
-
 const Newsletter = () => {
-    return (
-      <div className="container mx-auto  ">
-        <div className=" p-5 relative lg:h-[300px] mb-10 rounded-lg hero">
+  return (
+    <div className="container mx-auto">
+      <div className="p-5 relative lg:h-[300px] mb-10 rounded-lg hero">
         <div>
           <img 
-            className=" p-5 rounded-3xl  border-2 border-[#ffffff]" 
-            src="/src/assets/bg-shadow.png" 
-            alt="Background shadow" 
+            className="p-5 rounded-3xl border-2 border-[#ffffff]" 
+            src="./src/assets/bg-shadow.png" 
+            alt="" 
           />
         </div>
         <div className="text-center mt-32">
@@ -26,12 +24,8 @@ const Newsletter = () => {
           </div>
         </div>
       </div>
-      </div>
-      
-      
-
-
-    );
+    </div>
+  );
 };
 
 export default Newsletter;
