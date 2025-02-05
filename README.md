@@ -1,12 +1,8 @@
-🏏BPL-DREAM 🏏  
- 
-
-
 ![BPL-DREAM](https://i.ibb.co.com/8gCRpW9d/ww.jpg)  
 
-🌟 A Fantasy Cricket Team Selection App 🌟
+🏏BPL-DREAM 🏏  
 
-🚀 Build your dream team with real-time budget tracking and notifications.
+🌟 A Fantasy Cricket Team Selection App 🌟
 
 BPL-DREAM 11 is a fantasy sports team selection app that allows users to create their dream team by selecting players with a budget system. Users can browse through an available player list, select players based on their performance and budget, and manage their selections within a 6-player limit. The app provides real-time feedback on selections, notifications using react-toastify, and an interactive interface to track credit balance and selected players.
 
