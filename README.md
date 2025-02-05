@@ -42,7 +42,7 @@ CSS Modules – Styled components for a sleek UI.
 <div align="center">
   <table>
     <tr>
-      <td><img src="https://i.ibb.co.com/8Lqs1k14/sd.jpg" width="300" alt="Gadget Haven Screenshot 1"></td>
+      <td><img src="https://i.ibb.co.com/dsygCCWG/ccc.jpg" width="300" alt="Gadget Haven Screenshot 1"></td>
     </tr>
   </table>
 </div>
